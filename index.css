@@ -11,6 +11,16 @@ body {
 h1 {
     font-size: 1.1rem;
     display: inline-block;
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    font-family: 'Spectral', serif;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
 }
 
 ul {
@@ -31,14 +41,12 @@ a {
 
 #center-header-box {
     display: inline-block;
-    /* border:1px solid white; */
     text-align: left;
     padding-bottom: .67rem;
 }
 
-#header-functions {
-    /* border:solid pink 1px; */
-    
+.invisible {
+    color:#222222;
 }
 
 .cyan {
@@ -65,10 +73,10 @@ a {
 .center-box {
     width: 90%;
     margin:0 auto;
+    text-align: left;
 }
 
 #projects {
-    /* border: solid grey 10px; */
     text-align: center;
 }
 
@@ -77,15 +85,14 @@ a {
 }
 
 .js-project {
-    /* border:solid green 1px; */
     text-align: left;
     overflow: hidden;
     margin-bottom: 5%;
 }
 
 .img-container {
-    /* border:white 1px solid; */
     width:100%;
+    margin-right: 20px;
 }
 
 .project-img {
@@ -106,7 +113,10 @@ a {
 }
 #contact-info ul {
     text-align: left;
+    display:inline-block;
+    margin: 0 auto;
 }
+
 
 @media only screen and (min-width: 520px) {
     #header *, h2, h3 {
@@ -158,4 +168,7 @@ a {
       width:60%;
     }
 
+    .contact-img {
+        width:1.75%;
+    }
 }
